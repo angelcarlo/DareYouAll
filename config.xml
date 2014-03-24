@@ -3,11 +3,7 @@
 
 	<name>DareYou</name>
 	<description>DareYou</description>
-	<author>Joseph Angelo Pusing</author>	<gap:platforms>
-		<gap:platform name="ios" />
 		<gap:platform name="android" />
-		<gap:platform name="webos" />
-		<gap:platform name="symbian.wrt" />
 		<gap:platform name="blackberry" project="widgets"/>
 	</gap:platforms>
 	
@@ -25,6 +21,9 @@
 	<feature name="Geolocation">
     <param name="android-package" value="org.apache.cordova.GeoBroker" />
 	</feature>
+	<feature name="Accelerometer">
+    <param name="android-package" value="org.apache.cordova.AccelListener" />
+</feature>
 	
 	<preference name="orientation" value="portrait" />
 	<preference name="fullscreen" value="true" />
