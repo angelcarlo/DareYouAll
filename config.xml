@@ -7,7 +7,7 @@
 <gap:platform name="android"/>
 <gap:platform name="blackberry" project="widgets"/>
 </gap:platforms>
-<icon src="images/icon-150.png" gap:role="default"/>
+<icon src="icon.png" gap:role="default"/>
 <preference name="phonegap-version" value="3.1.0"/>
 <access origin="*" subdomains="true"/>
 <access uri="*" subdomains="true"/>
